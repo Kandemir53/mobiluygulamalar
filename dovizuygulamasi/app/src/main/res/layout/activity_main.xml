@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#FFF5FC">
+
+    <TextView
+        android:id="@+id/chfText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHF"
+        android:textSize="20sp"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:id="@+id/usdText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="USD"
+        android:textSize="20sp"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:id="@+id/jpyText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JPY"
+        android:textSize="20sp"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:id="@+id/tryText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TRY"
+        android:textSize="20sp"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:id="@+id/cadText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CAD"
+        android:textSize="20sp"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/getRatesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GET RATES"
+        android:backgroundTint="#7E57C2"
+        android:textColor="#FFFFFF"
+        android:padding="10dp"/>
+</LinearLayout>
